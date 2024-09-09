@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    background: linear-gradient(to right, #A54343, #E73535);
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.icerik {
+    position: absolute;
+    top: 223px;
+    left: 165px;
+    width: 517px;
+    height: 598px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.baslik {
+    font-size: 140px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.aciklama {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.div-container {
+    width: 294px;
+    height: 98px;
+    border: 1px solid #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    border-radius: 98px;
+}
+
+.artiok {
+    width: 98px;
+    height: 98px;
+    background-color: #FFC107;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.artiok-text {
+    margin: 0;
+}
+
+.fiyat {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.deliver {
+    width: 135px;
+    height: 41px;
+}
+
+.burger-resim {
+    flex:1;
+    padding-left: 537px;
+    padding-top: 133px;
+}

@@ -1,0 +1,56 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 1110px;
+    height: 350px;
+    background-color: #121212;
+    box-sizing: border-box;
+}
+
+.sol-taraf {
+    flex: 1;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.baslik {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+.btn-get-started {
+    font-size: 20px;
+    background-color: #DC3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 280px;
+    height: 64px;
+    text-align: center;
+}
+
+.sag-taraf {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}

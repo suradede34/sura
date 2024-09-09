@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    background-color: #05285B;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.sol {
+    color: #fff;
+    max-width: 50%;
+}
+
+.baslik {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.aciklama {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.buton-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.buton {
+    display: flex;
+    align-items: center;
+    background-color: #DC3545;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    font-weight: semi-bold;
+    width: 281px;
+    height: 64px;
+    text-align: center;
+    line-height: 64px;
+    margin-bottom: 10px;
+}
+
+.buton-alt {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+}
+
+.takvim {
+    width: 24px;
+    height: 24px;
+}
+
+.randevu {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10px;
+}
+
+.sag {
+    max-width: 50%;
+}
+
+.resim {
+    max-width: 100%;
+    height: auto;
+}

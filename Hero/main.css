@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    background-color: #fff;
+    width: 1440px;
+    height: 692px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.sol {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.baslik {
+    font-size: 60px;
+    font-weight: bold;
+    color: #212121;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.aciklama {
+    font-size: 20px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+.fiyat {
+    font-size: 40px;
+    font-weight: bold;
+    color: #212121;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.buton {
+    display: inline-block;
+    background-color: #0D6EFD;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    font-weight: semi-bold;
+    width: 217px;
+    height: 64px;
+    text-align: center;
+    line-height: 64px;
+}
+
+.sag {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resim {
+    max-width: 100%;
+    height: auto;
+}
